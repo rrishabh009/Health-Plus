@@ -5,7 +5,7 @@ import "../Styles/LegalDocs.css";
 function LegalDocs() {
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: "smooth" });
-    });
+    }, []);
 
     return ( <
         div className = "legal-section-title" >
